@@ -30,48 +30,6 @@ It simulates real-world QA practices using the **Page Object Model (POM)**, cros
 ---
 
 ## 📂 Project Structure  
-QA-Automation-Portfolio-Project
-│── .gitignore
-│── build.gradle
-│── config.properties
-│── gradlew
-│── gradlew.bat
-│── settings.gradle
-│── testng.xml
-│
-├── reports                # ExtentReports output folder
-│
-├── src
-│   ├── main
-│   │   └── java
-│   │       ├── pages
-│   │       │   ├── CartPage.java
-│   │       │   ├── CheckoutPage.java
-│   │       │   ├── LoginPage.java
-│   │       │   └── ProductsPage.java
-│   │       │
-│   │       └── utils
-│   │           ├── ConfigReader.java
-│   │           ├── DriverFactory.java
-│   │           ├── ExtentManager.java
-│   │           └── TestUtils.java
-│   │
-│   └── resources
-│
-├── src
-│   └── test
-│       └── java
-│           ├── base
-│           │   └── BaseTest.java
-│           │
-│           └── tests
-│               ├── CartTest.java
-│               ├── CheckoutTest.java
-│               └── LoginTest.java
-│
-└── src
-    └── test
-        └── resources
 
 <img width="538" height="1282" alt="PStructure" src="https://github.com/user-attachments/assets/c6b41215-d7ea-42ca-9574-f211d6eec238" />
 
@@ -94,7 +52,8 @@ in your browser to view results with screenshots
 
 ## 📸 Sample Report Screenshot  
 Here is a preview of the **ExtentReport** generated after running the test suite:  
-![ExtentReport Screenshot](reports/screenshots/Test1.png)
+
+<img width="2560" height="695" alt="Test1" src="https://github.com/user-attachments/assets/501428e7-6656-49d1-ad09-cee2e004ba4f" />
 
 
 

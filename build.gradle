@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.qa'
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Main libraries
+    implementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.7.0'
+    implementation 'com.aventstack:extentreports:5.1.1'
+    implementation 'commons-io:commons-io:2.16.1'
+    testImplementation 'com.aventstack:extentreports:5.0.9'
+
+
+    // Test framework
+    testImplementation 'org.testng:testng:7.9.0'
+}
+
+test {
+    // Tell Gradle to use TestNG and the suite file
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
+
+    // Allow overriding browser from command line: -Dbrowser=firefox
+    systemProperty 'browser', System.getProperty('browser', '')
+
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED", "STANDARD_OUT", "STANDARD_ERROR"
+        exceptionFormat "full"
+        showCauses true
+        showExceptions true
+        showStackTraces true
+    }
+}

@@ -73,13 +73,14 @@ QA-Automation-Portfolio-Project
     └── test
         └── resources
 
+<img width="538" height="1282" alt="PStructure" src="https://github.com/user-attachments/assets/c6b41215-d7ea-42ca-9574-f211d6eec238" />
 
 ---
 
 ## ⚙️ Setup & Run  
 
 ### 1️⃣ Clone the repository  
-git clone https://github.com/YourUsername/QA-Automation-Portfolio-Project1.git
+git clone https://github.com/agnesalbertusiak/QA-Automation-Portfolio-Project1.git
 
 ### 2️⃣ Navigate into the project folder
 cd QA-Automation-Portfolio-Project1
@@ -93,7 +94,7 @@ in your browser to view results with screenshots
 
 ## 📸 Sample Report Screenshot  
 Here is a preview of the **ExtentReport** generated after running the test suite:  
-![reports/screenshots](screenshots/Test1.png)
+![ExtentReport Screenshot](reports/screenshots/Test1.png)
 
 
 

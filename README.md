@@ -73,6 +73,7 @@ QA-Automation-Portfolio-Project
     └── test
         └── resources
 
+<img width="538" height="1282" alt="PStructure" src="https://github.com/user-attachments/assets/c6b41215-d7ea-42ca-9574-f211d6eec238" />
 
 ---
 

@@ -55,6 +55,8 @@ Here is a preview of the **ExtentReport** generated after running the test suite
 
 <img width="2560" height="695" alt="Test1" src="https://github.com/user-attachments/assets/501428e7-6656-49d1-ad09-cee2e004ba4f" />
 
+## 🎥 Project Walkthrough Video  
+[Watch the 2-min demo on Loom](https://www.loom.com/share/a5f7d7a0d8b34c9f9181db91cc05bee8?sid=ec596237-82a4-4046-bfd5-559e9aca32f5))
 
 
 ## 👩‍💻 Author  
